@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+    font-family:sans-serif;
+    font-weight: 550;
+}
+/*menu*/
+.menu{
+    list-style:none; 
+    border:1px solid #c0c0c0; 
+    float:left;
+    width: 100%;
+    background-color:white;
+}
+
+.menu li{
+    position:relative; 
+    float:left; 
+    padding-left: 3px;
+    padding-right: 3px;
+
+}
+
+.menu li a{
+    color:#333; 
+    text-decoration:none; 
+    padding:5px 10px; 
+    display:block;
+    border-radius: 10px;
+}
+ 
+.menu li a:hover{
+    background:#06F; 
+    color:#fff; 
+}
+
+.menu li  ul{
+    position:absolute; 
+    top:25px; 
+    left:0;
+    background-color:#fff; 
+    display:none;
+}   
+
+/*menu fim*/
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    background-color:skyblue;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.container img{
+   width:48%;
+	margin:1%;
+    float: left;
+}
+
+.info{
+    width: 48%;
+    margin:1%;
+    float: left;
+    background-color:aliceblue;
+    font-size: 17px;
+    border-radius: 6px;
+}
+
+
+div.body-content{
+  /** Essa margem vai evitar que o conteudo fique por baixo do rodapé **/
+  margin-bottom: 40px;
+}
+
+footer.fixar-rodape{
+  border-top: 1px solid #000;
+  bottom: 0;
+  left: 0;
+  height: 40px;
+  position:fixed;
+  width: 100%;
+  margin-top:100%;
+  background-color: skyblue;
+}
+
+.redes{
+	float: left;
+	margin: 5px 0 0 30px;
+}
+
+.redes img{
+    width: 50%;
+}
